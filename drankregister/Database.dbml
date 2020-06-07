@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="drankregister" Class="DatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(local)\SQLEXPRESS;Initial Catalog=drankregister;Integrated Security=True" SettingsObjectName="drankregister.Properties.Settings" SettingsPropertyName="drankregisterConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.dranken" Member="drankens">
+    <Type Name="dranken">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAAM" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SOORT" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PRIJS" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

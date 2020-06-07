@@ -1,0 +1,57 @@
+﻿<Window x:Class="drankregister.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:drankregister"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Width="794">
+        <StackPanel HorizontalAlignment="Left" Height="400" Margin="488,10,0,0" VerticalAlignment="Top" Width="296">
+            <TextBox x:Name="txtid" Height="42" TextWrapping="Wrap" Text="id"/>
+            <TextBox x:Name="txtprijs" Height="42" TextWrapping="Wrap" Text="prijs"/>
+            <TextBox x:Name="txtsoort" Height="42" TextWrapping="Wrap" Text="soort"/>
+            <TextBox x:Name="txtnaam" Height="42" TextWrapping="Wrap" Text="naam"/>
+            <Button x:Name="verstuur" Content="toevoegen" Click="verstuur_Click" Height="61"/>
+        </StackPanel>
+        <DataGrid x:Name="data" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="345" AutoGenerateColumns="False" MouseDoubleClick="data_Click" SelectionChanged="data_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn ClipboardContentBinding="{x:Null}">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding ID}" ClipboardContentBinding="{x:Null}" Header="ID"/>
+                <DataGridTextColumn Binding="{Binding NAAM}" ClipboardContentBinding="{x:Null}" Header="NAAM"/>
+                <DataGridTextColumn Binding="{Binding SOORT}" ClipboardContentBinding="{x:Null}" Header="SOORT"/>
+                <DataGridTextColumn Binding="{Binding PRIJS}" ClipboardContentBinding="{x:Null}" Header="PRIJS"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+
+                        <DataTemplate>
+
+                            <Button x:Name="verwijder" Content="verwijderen" Click="verwijder_Click"/>
+
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+
+                        <DataTemplate>
+
+                            <Button x:Name="wijzig" Content="Bewerken" Click="wijzig_Click"/>
+
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid x:Name="grid" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="794"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister.csprojAssemblyReference.cache
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\MainWindow.g.cs
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\App.g.cs
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister_MarkupCompile.cache
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister_MarkupCompile.lref
+C:\Users\julia\source\repos\drankregister\drankregister\bin\Debug\drankregister.exe.config
+C:\Users\julia\source\repos\drankregister\drankregister\bin\Debug\drankregister.exe
+C:\Users\julia\source\repos\drankregister\drankregister\bin\Debug\drankregister.pdb
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\MainWindow.baml
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister.g.resources
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister.Properties.Resources.resources
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister.csproj.GenerateResource.cache
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister.exe
+C:\Users\julia\source\repos\drankregister\drankregister\obj\Debug\drankregister.pdb
